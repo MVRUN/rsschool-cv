@@ -1,0 +1,9 @@
+* {
+	box-sizing: border-box;
+	line-height: 1;
+}
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
