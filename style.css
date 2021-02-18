@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+	line-height: 1;
+}
+body {
+	padding: 0 100px;
+}
+section {
+    padding-top: 30px;
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 32px;
+}
+p, li {
+    font-size: 24px;
+}
+p span, li span, .experience .date {
+    font-weight: bold;
+}
+code {
+    font-size: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header img {
+    width: 180px;
+}
+header .contacts {
+    width: 100%;
+}
