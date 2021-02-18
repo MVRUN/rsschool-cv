@@ -55,29 +55,14 @@
         <hr>
         <pre>
             <code>
-            function startSliderThree (g) {
-                slideIndexThree++;
-                g = slideIndexThree;
-                for (let slides of sldrElementsThree) {
-                    slides.classList.remove("active");
+            let number = prompt("Введите число от 1 до 9");
+            let array = [];
+            let randomN = 5;
+            function plus() {
+  	            for (i = 0; i < number; i++) {
+  	            array.push(randomN);
+  	            randomN++;
                 }
-                if (g > sldrElementsThree.length) {
-                    slideIndexThree = 1;
-                }
-                if (g <1) {
-                  slideIndexThree = sldrElementsThree.length
-                } 
-                sldrElementsThree[slideIndexThree - 1].classList.add("active");
-                for (let radio of radioButton) {
-                    radio.classList.remove("active");
-                }
-                if (g > radioButton.length) {
-                    slideIndexThree = 1;
-                }
-                if (g <1) {
-                  slideIndexThree = radioButton.length
-                } 
-                radioButton[slideIndexThree - 1].classList.add("active");
             }
             </code>
         </pre>
