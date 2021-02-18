@@ -8,6 +8,92 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="left-box">
+            <h1>Victor Marun</h1>
+            <div class="contacts">
+                <p class="mail"><span>Mail:</span> mv.run7@gmail.com;</p>
+                <p class="number"><span>Сontact number (Viber, Telegram):</span> +375(29) 250-11-79;</p>
+                <p class="link"><span>Linkedin: </span><a href="https://www.linkedin.com/in/mvrun/">Victor Marun</a></p>
+            </div>
+        </div>
+        <div class="right-box">
+            <img src="./img/avatar.jpeg" alt="">
+        </div>
+    </header>
+    <section class="experience">
+        <h2>Experience</h2>
+        <hr>
+        <ul>
+            <li>
+                <p class="date">October 2019 - until now:</p>
+                <p><span>Place of work:</span> State Enterprise Minsktrans;</p>
+                <p><span>Position:</span> PC technician (assistant to the system administrator);</p>
+            </li>
+        </ul>
+    </section>
+    <section class="aducation">
+        <h2>Aducation</h2>
+        <hr>
+        <ul>
+            <li><span>November 2019 - May 2020:</span> TeachMeSkills Course (Front-End Developer);</li>
+        </ul>
+    </section>
+    <section class="skills">
+        <h2>Skills</h2>
+        <hr>
+        <ul>
+            <li>HTML CSS (Bootstrap,SaSS);</li>
+            <li>JavaScript (ES6/7, jQuery);</li>
+            <li>React;</li>
+            <li>Git;</li>
+            <li>Adobe Photoshop, Figma;</li>
+        </ul>
+    </section>
+    <section class="code_examples">
+        <h2>Code examples</h2>
+        <hr>
+        <pre>
+            <code>
+            function startSliderThree (g) {
+                slideIndexThree++;
+                g = slideIndexThree;
+                for (let slides of sldrElementsThree) {
+                    slides.classList.remove("active");
+                }
+                if (g > sldrElementsThree.length) {
+                    slideIndexThree = 1;
+                }
+                if (g < 1) {
+                  slideIndexThree = sldrElementsThree.length
+                } 
+                sldrElementsThree[slideIndexThree - 1].classList.add("active");
+                for (let radio of radioButton) {
+                    radio.classList.remove("active");
+                }
+                if (g > radioButton.length) {
+                    slideIndexThree = 1;
+                }
+                if (g < 1) {
+                  slideIndexThree = radioButton.length
+                } 
+                radioButton[slideIndexThree - 1].classList.add("active");
+            }
+            </code>
+        </pre>
+    </section>
+    <section class="languages">
+        <h2>Languages</h2>
+        <hr>
+        <ul>
+            <li><span>Russian:</span> Native;</li>
+            <li><span>English:</span> Pre-intermediate(A2);</li>
+        </ul>
+    </section>
+    <section class="about_myself">
+        <h2>About myself</h2>
+        <hr>
+        <p>He graduated from courses in front-end direction in the summer of 2020. Up to this point, I was engaged in writing landings and individual tasks in free form. At the moment, I continue to delve deeper into the study of this direction (react). I am fond of active recreation: camping, sports games (basketball, volleyball). Sociable, stress-resistant, I have experience in personnel management (setting and clarifying tasks, performing according to deadlines). I also have experience in the purchase and sale of goods.</p>
+    </section>
 </body>
 </html>
