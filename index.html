@@ -55,14 +55,13 @@
         <hr>
         <pre>
             <code>
-            let number = prompt("Введите число от 1 до 9");
-            let array = [];
-            let randomN = 5;
-            function plus() {
-  	            for (i = 0; i < number; i++) {
-  	            array.push(randomN);
-  	            randomN++;
-                }
+            function hello( param1, param2, paramFunction) {       
+                paramFunction();
+            }
+            hello('name','age',goodbye);
+
+            function goodbye() {
+                alert("goodbye");
             }
             </code>
         </pre>
