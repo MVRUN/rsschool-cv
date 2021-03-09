@@ -62,12 +62,10 @@ header li a:hover {
     color: red;
     transition: 0.7s;
 }
-header .avatar {
+header .avatar img {
     width: 250px;
-    height: 250px;
-    background-size: cover;
-    border-radius: 50%;
-    background-image: url(./img/avatar.jpeg);
+    height: 333px;
+    border-radius: 50px;
 }
 nav {
     padding: 30px 100px;
